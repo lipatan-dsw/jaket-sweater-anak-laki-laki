@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 912 Murah,cpl-912,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Sweaters Hoodie Anak Laki-Laki - CPL 913 Murah,cpl-913,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 912 Murah,cpl-912,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 912 Murah,cpl-912,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 912 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan TERRY.<br/>Kode : CPL 912<br/>Warna : ABU MISTY<br/>Bahan : TERRY<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Hoodie Anak Laki-Laki - CPL 913 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 913<br/>Warna : BIRU NAVY<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 912 Murah,cpl-912,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TERRY, Ukuran 4 ~ 10, Warna ABU MISTY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-912.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 912,Rp 111.900,Rp 128.900,Rp 17.000,CPL 912,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 921 Murah,cpl-921,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna BIRU NAVY, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-913.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Hoodie Anak Laki-Laki - CPL 913,Rp 144.900,Rp 118.900,Rp 130.900,CPL 913,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CPL 925 Murah,cpl-925,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 921 Murah,cpl-921,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 921 Murah,cpl-921,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 921 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CPL 921<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CPL 925 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 925<br/>Warna : MERAH BATA<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 921 Murah,cpl-921,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 4 ~ 10, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-921.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 921,Rp 108.900,Rp 125.900,Rp 17.000,CPL 921,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 902 Murah,cpl-902,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna MERAH BATA, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-925.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CPL 925,Rp 154.900,Rp 126.900,Rp 139.900,CPL 925,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CPS 082 Murah,cps-082,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 902 Murah,cpl-902,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 902 Murah,cpl-902,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 902 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CPL 902<br/>Warna : MERAH<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CPS 082 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPS 082<br/>Warna : BIRU NAVY<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,8 +184,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 902 Murah,cpl-902,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 4 ~ 10, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-902.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 902,Rp 116.900,Rp 134.900,Rp 18.000,CPL 902,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 913 Murah,cpl-913,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna BIRU NAVY, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cps-082.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CPS 082,Rp 142.900,Rp 116.900,Rp 128.900,CPS 082,Baru
+Jual Sweaters Hoodie Unisex - CPL 912 Murah,cpl-912,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -210,7 +210,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 913 Murah,cpl-913,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -233,7 +233,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 913 Murah,cpl-913,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 913 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CPL 913<br/>Warna : BIRU NAVY<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Hoodie Unisex - CPL 912 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 912<br/>Warna : ABU MISTY<br/>Bahan : TERRY<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -246,8 +246,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 913 Murah,cpl-913,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 4 ~ 10, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-913.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 913,Rp 111.900,Rp 128.900,Rp 17.000,CPL 913,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 001 Murah,ctk-001,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TERRY, Warna ABU MISTY, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-912.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Hoodie Unisex - CPL 912,Rp 144.900,Rp 118.900,Rp 130.900,CPL 912,Baru
+Jual Jaket Casual Anak Laki-Laki - CYI 159 Murah,cyi-159,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -272,7 +272,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 001 Murah,ctk-001,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -295,7 +295,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 001 Murah,ctk-001,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 001 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CTK 001<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 6 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Casual Anak Laki-Laki - CYI 159 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 159<br/>Warna : MERAH KOMBINASI<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -308,8 +308,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 001 Murah,ctk-001,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 6 ~ 12, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/ctk-001.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 001,Rp 114.900,Rp 132.900,Rp 18.000,CTK 001,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CHR 243 Murah,chr-243,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Warna MERAH KOMBINASI, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-159.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Casual Anak Laki-Laki - CYI 159,Rp 162.900,Rp 132.900,Rp 146.900,CYI 159,Baru
+Jual Sweaters Hoodie Anak Laki-Laki - CYI 161 Murah,cyi-161,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -334,7 +334,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CHR 243 Murah,chr-243,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -357,7 +357,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CHR 243 Murah,chr-243,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CHR 243 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CHR 243<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Hoodie Anak Laki-Laki - CYI 161 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 161<br/>Warna : BIRU NAVY<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 525 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -370,8 +370,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CHR 243 Murah,chr-243,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 4 ~ 10, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/chr-243.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CHR 243,Rp 92.900,Rp 106.900,Rp 14.000,CHR 243,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 922 Murah,cpl-922,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Warna BIRU NAVY, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-161.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Hoodie Anak Laki-Laki - CYI 161,Rp 162.900,Rp 132.900,Rp 146.900,CYI 161,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CPL 921 Murah,cpl-921,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -396,7 +396,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 922 Murah,cpl-922,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -419,7 +419,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 922 Murah,cpl-922,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 922 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CPL 922<br/>Warna : TOSKA<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CPL 921 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 921<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -432,8 +432,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 922 Murah,cpl-922,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 4 ~ 10, Warna TOSKA",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-922.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 922,Rp 108.900,Rp 125.900,Rp 17.000,CPL 922,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 923 Murah,cpl-923,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna HITAM, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-921.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CPL 921,Rp 141.900,Rp 115.900,Rp 127.900,CPL 921,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CYI 175 Murah,cyi-175,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -458,7 +458,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 923 Murah,cpl-923,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -481,7 +481,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 923 Murah,cpl-923,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 923 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CPL 923<br/>Warna : BIRU NAVY<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CYI 175 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 175<br/>Warna : COKLAT KOMBINASI<br/>Bahan : DIADORA<br/>Ukuran : 6 ~ 12<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -494,8 +494,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 923 Murah,cpl-923,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 4 ~ 10, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cpl-923.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CPL 923,Rp 114.900,Rp 132.900,Rp 18.000,CPL 923,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 169 Murah,cse-169,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Warna COKLAT KOMBINASI, Size 6 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-175.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CYI 175,Rp 142.900,Rp 116.900,Rp 128.900,CYI 175,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CYI 172 Murah,cyi-172,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -520,7 +520,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 169 Murah,cse-169,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -543,7 +543,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 169 Murah,cse-169,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 169 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CSE 169<br/>Warna : ABU ABU<br/>Bahan : FLEECE<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CYI 172 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 172<br/>Warna : MERAH KOMBINASI<br/>Bahan : DIADORA<br/>Ukuran : 6 ~ 12<br/>Berat : 550 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -556,8 +556,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 169 Murah,cse-169,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 6 ~ 12, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cse-169.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 169,Rp 91.900,Rp 105.900,Rp 14.000,CSE 169,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 164 Murah,cyi-164,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Warna MERAH KOMBINASI, Size 6 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-172.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CYI 172,Rp 162.900,Rp 132.900,Rp 146.900,CYI 172,Baru
+Jual Jaket Casual Anak Laki-Laki - CYI 145 Murah,cyi-145,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -582,7 +582,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 164 Murah,cyi-164,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -605,7 +605,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 164 Murah,cyi-164,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 164 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 164<br/>Warna : HITAM PUTIH<br/>Bahan : DIADORA<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Casual Anak Laki-Laki - CYI 145 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 145<br/>Warna : ORANGE<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -618,8 +618,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 164 Murah,cyi-164,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 6 ~ 12, Warna HITAM PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-164.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 164,Rp 108.900,Rp 125.900,Rp 17.000,CYI 164,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 246 Murah,ctk-246,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Warna ORANGE, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-145.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Casual Anak Laki-Laki - CYI 145,Rp 132.900,Rp 108.900,Rp 119.900,CYI 145,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CTK 012 Murah,ctk-012,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -644,7 +644,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 246 Murah,ctk-246,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -667,7 +667,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 246 Murah,ctk-246,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 246 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CTK 246<br/>Warna : BIRU NAVY<br/>Bahan : FLEECE<br/>Ukuran : 6 ~ 12<br/>Berat : 625 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CTK 012 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CTK 012<br/>Warna : HITAM<br/>Bahan : TASLAN<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -680,8 +680,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 246 Murah,ctk-246,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 6 ~ 12, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/ctk-246.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 246,Rp 104.900,Rp 120.900,Rp 16.000,CTK 246,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 014 Murah,cmn-014,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Warna HITAM, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/ctk-012.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CTK 012,Rp 176.900,Rp 144.900,Rp 159.900,CTK 012,Baru
+Jual Sweaters Hoodie Anak Laki-Laki - CPL 902 Murah,cpl-902,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -706,7 +706,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 014 Murah,cmn-014,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -729,7 +729,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 014 Murah,cmn-014,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 014 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CMN 014<br/>Warna : MERAH<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Hoodie Anak Laki-Laki - CPL 902 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 902<br/>Warna : MERAH<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -742,8 +742,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 014 Murah,cmn-014,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 4 ~ 10, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmn-014.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 014,Rp 129.900,Rp 149.900,Rp 20.000,CMN 014,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 008 Murah,cmn-008,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna MERAH, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-902.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Hoodie Anak Laki-Laki - CPL 902,Rp 150.900,Rp 123.900,Rp 135.900,CPL 902,Baru
+Jual Sweaters Lengan Panjang Anak Laki-Laki - CHR 253 Murah,chr-253,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -768,7 +768,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 008 Murah,cmn-008,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -791,7 +791,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 008 Murah,cmn-008,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 008 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan TERRY.<br/>Kode : CMN 008<br/>Warna : HITAM<br/>Bahan : TERRY<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Lengan Panjang Anak Laki-Laki - CHR 253 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CHR 253<br/>Warna : HITAM PUTIH<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 550 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -804,8 +804,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 008 Murah,cmn-008,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TERRY, Ukuran 4 ~ 10, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmn-008.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 008,Rp 129.900,Rp 149.900,Rp 20.000,CMN 008,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 013 Murah,cmn-013,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna HITAM PUTIH, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/chr-253.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Lengan Panjang Anak Laki-Laki - CHR 253,Rp 139.900,Rp 113.900,Rp 125.900,CHR 253,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CTK 011 Murah,ctk-011,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -830,7 +830,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 013 Murah,cmn-013,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -853,7 +853,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 013 Murah,cmn-013,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 013 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CMN 013<br/>Warna : HITAM<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CTK 011 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CTK 011<br/>Warna : HITAM KOMBINASI<br/>Bahan : TASLAN<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -866,8 +866,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 013 Murah,cmn-013,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 4 ~ 10, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmn-013.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CMN 013,Rp 133.900,Rp 153.900,Rp 20.000,CMN 013,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 159 Murah,cyi-159,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Warna HITAM KOMBINASI, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/ctk-011.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CTK 011,Rp 176.900,Rp 144.900,Rp 159.900,CTK 011,Baru
+Jual Sweaters Lengan Panjang Anak Laki-Laki - CHR 243 Murah,chr-243,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -892,7 +892,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 159 Murah,cyi-159,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -915,7 +915,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 159 Murah,cyi-159,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 159 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 159<br/>Warna : MERAH KOMBINASI<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Lengan Panjang Anak Laki-Laki - CHR 243 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CHR 243<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 525 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -928,8 +928,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 159 Murah,cyi-159,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 4 ~ 10, Warna MERAH KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-159.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 159,Rp 117.900,Rp 135.900,Rp 18.000,CYI 159,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 151 Murah,cyi-151,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna HITAM, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/chr-243.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Lengan Panjang Anak Laki-Laki - CHR 243,Rp 124.900,Rp 100.900,Rp 111.900,CHR 243,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CSE 189 Murah,cse-189,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -954,7 +954,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 151 Murah,cyi-151,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -977,7 +977,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 151 Murah,cyi-151,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 151 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 151<br/>Warna : HIJAU<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CSE 189 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSE 189<br/>Warna : ABU KOMBINASI<br/>Bahan : MAYER<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -990,8 +990,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 151 Murah,cyi-151,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 4 ~ 10, Warna HIJAU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-151.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 151,Rp 96.900,Rp 111.900,Rp 15.000,CYI 151,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 168 Murah,cyi-168,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan MAYER, Warna ABU KOMBINASI, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cse-189.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CSE 189,Rp 152.900,Rp 124.900,Rp 137.900,CSE 189,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDI 130 Murah,cdi-130,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1016,7 +1016,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 168 Murah,cyi-168,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1039,7 +1039,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 168 Murah,cyi-168,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 168 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 168<br/>Warna : MERAH<br/>Bahan : DIADORA<br/>Ukuran : 2 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDI 130 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDI 130<br/>Warna : ORANGE<br/>Bahan : JIEM<br/>Ukuran : 8 ~ 12<br/>Berat : 650 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1052,8 +1052,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 168 Murah,cyi-168,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 2 ~ 8, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-168.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 168,Rp 121.900,Rp 140.900,Rp 19.000,CYI 168,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 162 Murah,cyi-162,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan JIEM, Warna ORANGE, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdi-130.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDI 130,Rp 181.900,Rp 148.900,Rp 163.900,CDI 130,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CPL 926 Murah,cpl-926,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1078,7 +1078,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 162 Murah,cyi-162,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1101,7 +1101,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 162 Murah,cyi-162,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 162 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 162<br/>Warna : BIRU PUTIH<br/>Bahan : DIADORA<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CPL 926 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 926<br/>Warna : ABU ABU<br/>Bahan : PARASIT<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1114,8 +1114,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 162 Murah,cyi-162,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 6 ~ 12, Warna BIRU PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-162.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 162,Rp 99.900,Rp 114.900,Rp 15.000,CYI 162,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 145 Murah,cyi-145,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Warna ABU ABU, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-926.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CPL 926,Rp 114.900,Rp 92.900,Rp 102.900,CPL 926,Baru
+Jual Jaket Panjang Anak Laki-Laki - CSE 187 Murah,cse-187,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1140,7 +1140,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 145 Murah,cyi-145,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1163,7 +1163,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 145 Murah,cyi-145,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 145 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 145<br/>Warna : ORANGE<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Panjang Anak Laki-Laki - CSE 187 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSE 187<br/>Warna : MERAH KOMBINASI<br/>Bahan : JIEM<br/>Ukuran : 8 ~ 12<br/>Berat : 550 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1176,8 +1176,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 145 Murah,cyi-145,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 4 ~ 10, Warna ORANGE",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-145.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 145,Rp 93.900,Rp 107.900,Rp 14.000,CYI 145,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 163 Murah,cyi-163,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan JIEM, Warna MERAH KOMBINASI, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cse-187.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Panjang Anak Laki-Laki - CSE 187,Rp 152.900,Rp 124.900,Rp 137.900,CSE 187,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CRC 003 Murah,crc-003,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1202,7 +1202,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 163 Murah,cyi-163,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1225,7 +1225,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 163 Murah,cyi-163,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 163 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 163<br/>Warna : BIRU HITAM<br/>Bahan : DIADORA<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CRC 003 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CRC 003<br/>Warna : HITAM<br/>Bahan : PARASIT<br/>Ukuran : 4 ~ 8<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1238,8 +1238,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 163 Murah,cyi-163,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 6 ~ 12, Warna BIRU HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-163.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 163,Rp 99.900,Rp 114.900,Rp 15.000,CYI 163,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 170 Murah,cyi-170,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Warna HITAM, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/crc-003.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CRC 003,Rp 137.900,Rp 112.900,Rp 123.900,CRC 003,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDG 156 Murah,cdg-156,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1264,7 +1264,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 170 Murah,cyi-170,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1287,7 +1287,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 170 Murah,cyi-170,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 170 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 170<br/>Warna : HITAM<br/>Bahan : DIADORA<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDG 156 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 156<br/>Warna : MERAH KOMBINASI<br/>Bahan : DESPO<br/>Ukuran : 6 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1300,8 +1300,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 170 Murah,cyi-170,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 6 ~ 12, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-170.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 170,Rp 122.900,Rp 141.900,Rp 19.000,CYI 170,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 161 Murah,cyi-161,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DESPO, Warna MERAH KOMBINASI, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-156.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDG 156,Rp 147.900,Rp 120.900,Rp 132.900,CDG 156,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CSE 184 Murah,cse-184,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1326,7 +1326,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 161 Murah,cyi-161,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1349,7 +1349,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 161 Murah,cyi-161,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 161 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 161<br/>Warna : BIRU NAVY<br/>Bahan : DIADORA<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CSE 184 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSE 184<br/>Warna : ABU ABU<br/>Bahan : JIEM<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1362,8 +1362,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 161 Murah,cyi-161,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 4 ~ 10, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-161.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 161,Rp 121.900,Rp 140.900,Rp 19.000,CYI 161,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 171 Murah,cyi-171,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan JIEM, Warna ABU ABU, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cse-184.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CSE 184,Rp 152.900,Rp 124.900,Rp 137.900,CSE 184,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CNJ 222 Murah,cnj-222,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1388,7 +1388,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 171 Murah,cyi-171,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1411,7 +1411,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 171 Murah,cyi-171,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 171 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DIADORA.<br/>Kode : CYI 171<br/>Warna : HITAM KOMBINASI<br/>Bahan : DIADORA<br/>Ukuran : 2 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CNJ 222 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CNJ 222<br/>Warna : MERAH<br/>Bahan : PARAGON<br/>Ukuran : 8 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1424,8 +1424,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 171 Murah,cyi-171,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DIADORA, Ukuran 2 ~ 8, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cyi-171.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CYI 171,Rp 122.900,Rp 141.900,Rp 19.000,CYI 171,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 120 Murah,cdi-120,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARAGON, Warna MERAH, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cnj-222.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CNJ 222,Rp 191.900,Rp 156.900,Rp 172.900,CNJ 222,Baru
+Jual Jaket Casual Unisex - CBE 103 Murah,cbe-103,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1450,7 +1450,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 120 Murah,cdi-120,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1473,7 +1473,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 120 Murah,cdi-120,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 120 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FERARY.<br/>Kode : CDI 120<br/>Warna : HITAM KOMBINASI<br/>Bahan : FERARY<br/>Ukuran : 6 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Casual Unisex - CBE 103 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CBE 103<br/>Warna : BIRU NAVY<br/>Bahan : PARASIT<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1486,8 +1486,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 120 Murah,cdi-120,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FERARY, Ukuran 6 ~ 12, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdi-120.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 120,Rp 121.900,Rp 140.900,Rp 19.000,CDI 120,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 004 Murah,crc-004,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Warna BIRU NAVY, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cbe-103.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Casual Unisex - CBE 103,Rp 152.900,Rp 124.900,Rp 137.900,CBE 103,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDG 126 Murah,cdg-126,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1512,7 +1512,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 004 Murah,crc-004,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1535,7 +1535,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 004 Murah,crc-004,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 004 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CRC 004<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDG 126 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 126<br/>Warna : MERAH<br/>Bahan : PARASIT<br/>Ukuran : 6 ~ 12<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1548,8 +1548,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 004 Murah,crc-004,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Ukuran 8 ~ 12, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/crc-004.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 004,Rp 104.900,Rp 120.900,Rp 16.000,CRC 004,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CNU 140 Murah,cnu-140,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Warna MERAH, Size 6 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-126.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDG 126,Rp 142.900,Rp 116.900,Rp 128.900,CDG 126,Baru
+Jual Jaket Casual Anak Laki-Laki - CDI 120 Murah,cdi-120,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1574,7 +1574,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CNU 140 Murah,cnu-140,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1597,7 +1597,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CNU 140 Murah,cnu-140,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CNU 140 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CNU 140<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Casual Anak Laki-Laki - CDI 120 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDI 120<br/>Warna : HITAM KOMBINASI<br/>Bahan : FERARY<br/>Ukuran : 6 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1610,8 +1610,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CNU 140 Murah,cnu-140,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Ukuran 8 ~ 12, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cnu-140.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CNU 140,Rp 137.900,Rp 158.900,Rp 21.000,CNU 140,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 005 Murah,crc-005,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FERARY, Warna HITAM KOMBINASI, Size 6 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdi-120.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Casual Anak Laki-Laki - CDI 120,Rp 176.900,Rp 144.900,Rp 159.900,CDI 120,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDG 144 Murah,cdg-144,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1636,7 +1636,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 005 Murah,crc-005,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1659,7 +1659,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 005 Murah,crc-005,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 005 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CRC 005<br/>Warna : TAN KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDG 144 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 144<br/>Warna : MERAH KOMBINASI<br/>Bahan : TASLAN<br/>Ukuran : 8 ~ 12<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1672,8 +1672,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 005 Murah,crc-005,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Ukuran 4 ~ 8, Warna TAN KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/crc-005.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 005,Rp 92.900,Rp 106.900,Rp 14.000,CRC 005,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 109 Murah,cbe-109,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Warna MERAH KOMBINASI, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-144.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDG 144,Rp 142.900,Rp 116.900,Rp 128.900,CDG 144,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDI 137 Murah,cdi-137,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1698,7 +1698,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 109 Murah,cbe-109,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1721,7 +1721,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 109 Murah,cbe-109,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 109 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CBE 109<br/>Warna : HITAM<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 850 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDI 137 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDI 137<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 8 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1734,8 +1734,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 109 Murah,cbe-109,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Ukuran 8 ~ 12, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cbe-109.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 109,Rp 136.900,Rp 157.900,Rp 21.000,CBE 109,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 129 Murah,cdi-129,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna HITAM, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdi-137.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDI 137,Rp 199.900,Rp 164.900,Rp 180.900,CDI 137,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDG 161 Murah,cdg-161,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1760,7 +1760,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 129 Murah,cdi-129,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1783,7 +1783,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 129 Murah,cdi-129,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 129 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan TASLAN.<br/>Kode : CDI 129<br/>Warna : TAN KOMBINASI<br/>Bahan : TASLAN<br/>Ukuran : 2 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDG 161 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 161<br/>Warna : MERAH<br/>Bahan : TASLAN<br/>Ukuran : 6 ~ 10<br/>Berat : 550 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1796,8 +1796,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 129 Murah,cdi-129,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Ukuran 2 ~ 8, Warna TAN KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdi-129.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 129,Rp 121.900,Rp 140.900,Rp 19.000,CDI 129,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 007 Murah,crc-007,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Warna MERAH, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-161.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDG 161,Rp 142.900,Rp 116.900,Rp 128.900,CDG 161,Baru
+Jual Sweaters Lengan Panjang Anak Laki-Laki - CRC 004 Murah,crc-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1822,7 +1822,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 007 Murah,crc-007,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1845,7 +1845,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 007 Murah,crc-007,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 007 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan PARASIT.<br/>Kode : CRC 007<br/>Warna : OLIP<br/>Bahan : PARASIT<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Lengan Panjang Anak Laki-Laki - CRC 004 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CRC 004<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1858,8 +1858,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 007 Murah,crc-007,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Ukuran 4 ~ 8, Warna OLIP",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/crc-007.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 007,Rp 100.900,Rp 116.900,Rp 16.000,CRC 007,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 009 Murah,crc-009,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Warna BIRU KOMBINASI, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/crc-004.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Lengan Panjang Anak Laki-Laki - CRC 004,Rp 149.900,Rp 121.900,Rp 134.900,CRC 004,Baru
+Jual Sweaters Lengan Panjang Anak Laki-Laki - CRC 005 Murah,crc-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1884,7 +1884,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 009 Murah,crc-009,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1907,7 +1907,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 009 Murah,crc-009,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 009 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan PARASIT.<br/>Kode : CRC 009<br/>Warna : ABU ABU<br/>Bahan : PARASIT<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Lengan Panjang Anak Laki-Laki - CRC 005 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CRC 005<br/>Warna : TAN KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 4 ~ 8<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1920,8 +1920,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 009 Murah,crc-009,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Ukuran 8 ~ 12, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/crc-009.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CRC 009,Rp 88.900,Rp 102.900,Rp 14.000,CRC 009,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 103 Murah,cbe-103,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Warna TAN KOMBINASI, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/crc-005.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Lengan Panjang Anak Laki-Laki - CRC 005,Rp 129.900,Rp 105.900,Rp 116.900,CRC 005,Baru
+Jual Jaket Casual Anak Laki-Laki - CNU 140 Murah,cnu-140,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1946,7 +1946,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 103 Murah,cbe-103,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1969,7 +1969,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 103 Murah,cbe-103,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 103 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan PARASIT.<br/>Kode : CBE 103<br/>Warna : BIRU NAVY<br/>Bahan : PARASIT<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Casual Anak Laki-Laki - CNU 140 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CNU 140<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1982,8 +1982,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 103 Murah,cbe-103,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Ukuran 8 ~ 12, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cbe-103.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CBE 103,Rp 117.900,Rp 135.900,Rp 18.000,CBE 103,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 162 Murah,cse-162,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan DENIM, Warna BIRU KOMBINASI, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cnu-140.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Casual Anak Laki-Laki - CNU 140,Rp 191.900,Rp 156.900,Rp 172.900,CNU 140,Baru
+Jual Kupluk Lengan Pendek Anak Laki-Laki - CYI 174 Murah,cyi-174,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2008,7 +2008,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 162 Murah,cse-162,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2031,7 +2031,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 162 Murah,cse-162,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 162 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan GN.<br/>Kode : CSE 162<br/>Warna : MERAH<br/>Bahan : GN<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kupluk Lengan Pendek Anak Laki-Laki - CYI 174 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 174<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = BAHAN : HAIGET SERENA<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2044,8 +2044,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 162 Murah,cse-162,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan GN, Ukuran 6 ~ 12, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cse-162.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 162,Rp 114.900,Rp 132.900,Rp 18.000,CSE 162,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 248 Murah,ctk-248,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan COTTON, Warna BIRU, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-174.jpg,-/-,-/-,-/-,-/-,-/-,Kupluk Lengan Pendek Anak Laki-Laki - CYI 174,Rp 116.900,Rp 94.900,Rp 104.900,CYI 174,Baru
+Jual Kupluk Lengan Pendek Anak Laki-Laki - CYI 176 Murah,cyi-176,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2070,7 +2070,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 248 Murah,ctk-248,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2093,7 +2093,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 248 Murah,ctk-248,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 248 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan FLEECE.<br/>Kode : CTK 248<br/>Warna : ABU ABU<br/>Bahan : FLEECE<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kupluk Lengan Pendek Anak Laki-Laki - CYI 176 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CYI 176<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = BAHAN : HAIGET SERENA<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2106,8 +2106,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 248 Murah,ctk-248,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Ukuran 6 ~ 12, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/ctk-248.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CTK 248,Rp 110.900,Rp 127.900,Rp 17.000,CTK 248,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 126 Murah,cdg-126,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan COTTON, Warna HITAM, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cyi-176.jpg,-/-,-/-,-/-,-/-,-/-,Kupluk Lengan Pendek Anak Laki-Laki - CYI 176,Rp 116.900,Rp 94.900,Rp 104.900,CYI 176,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CMN 016 Murah,cmn-016,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2132,7 +2132,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 126 Murah,cdg-126,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2155,7 +2155,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 126 Murah,cdg-126,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 126 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan PARASIT.<br/>Kode : CDG 126<br/>Warna : MERAH<br/>Bahan : PARASIT<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CMN 016 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMN 016<br/>Warna : HITAM<br/>Bahan : FLEECE<br/>Ukuran : 6 ~ 10<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2168,8 +2168,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 126 Murah,cdg-126,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Ukuran 6 ~ 12, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdg-126.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 126,Rp 105.900,Rp 121.900,Rp 16.000,CDG 126,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 144 Murah,cdg-144,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna HITAM, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cmn-016.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CMN 016,Rp 181.900,Rp 148.900,Rp 163.900,CMN 016,Baru
+Jual Sweaters Panjang Anak Perempuan - CMN 017 Murah,cmn-017,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2194,7 +2194,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 144 Murah,cdg-144,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2217,7 +2217,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 144 Murah,cdg-144,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 144 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan GN.<br/>Kode : CDG 144<br/>Warna : MERAH KOMBINASI<br/>Bahan : GN<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Perempuan - CMN 017 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMN 017<br/>Warna : MERAH<br/>Bahan : LOTTO<br/>Ukuran : 6 ~ 10<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2230,8 +2230,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 144 Murah,cdg-144,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan GN, Ukuran 8 ~ 12, Warna MERAH KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdg-144.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 144,Rp 110.900,Rp 127.900,Rp 17.000,CDG 144,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 005 Murah,cdi-005,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan LOTTO, Warna MERAH, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cmn-017.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Perempuan - CMN 017,Rp 197.900,Rp 161.900,Rp 178.900,CMN 017,Baru
+Jual Sweaters Panjang Anak Laki-Laki - CMN 018 Murah,cmn-018,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2256,7 +2256,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 005 Murah,cdi-005,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2279,7 +2279,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 005 Murah,cdi-005,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 005 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan TASLAN.<br/>Kode : CDI 005<br/>Warna : MARUN HITAM<br/>Bahan : TASLAN<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Laki-Laki - CMN 018 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMN 018<br/>Warna : BIRU<br/>Bahan : LOTTO<br/>Ukuran : 6 ~ 10<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2292,8 +2292,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 005 Murah,cdi-005,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Ukuran 6 ~ 12, Warna MARUN HITAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdi-005.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 005,Rp 133.900,Rp 153.900,Rp 20.000,CDI 005,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 011 Murah,cdi-011,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan LOTTO, Warna BIRU, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cmn-018.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Laki-Laki - CMN 018,Rp 180.900,Rp 147.900,Rp 162.900,CMN 018,Baru
+Jual Sweaters Panjang Anak Perempuan - CPL 928 Murah,cpl-928,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2318,7 +2318,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 011 Murah,cdi-011,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2341,7 +2341,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 011 Murah,cdi-011,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 011 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan TASLAN.<br/>Kode : CDI 011<br/>Warna : ABU KOMBINASI<br/>Bahan : TASLAN<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Perempuan - CPL 928 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 928<br/>Warna : BIRU NAVY<br/>Bahan : TERRY<br/>Ukuran : 4 ~ 10<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2354,8 +2354,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 011 Murah,cdi-011,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TASLAN, Ukuran 4 ~ 10, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdi-011.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 011,Rp 129.900,Rp 149.900,Rp 20.000,CDI 011,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 006 Murah,cdi-006,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan TERRY, Warna BIRU NAVY, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-928.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Perempuan - CPL 928,Rp 175.900,Rp 144.900,Rp 158.900,CPL 928,Baru
+Jual Sweaters Panjang Anak Perempuan - CSE 183 Murah,cse-183,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2380,7 +2380,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 006 Murah,cdi-006,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2403,7 +2403,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 006 Murah,cdi-006,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 006 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan PARASIT.<br/>Kode : CDI 006<br/>Warna : MARUN<br/>Bahan : PARASIT<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Panjang Anak Perempuan - CSE 183 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSE 183<br/>Warna : MARUN<br/>Bahan : FLEECE<br/>Ukuran : 6 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2416,8 +2416,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 006 Murah,cdi-006,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan PARASIT, Ukuran 6 ~ 12, Warna MARUN",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdi-006.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDI 006,Rp 133.900,Rp 153.900,Rp 20.000,CDI 006,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 146 Murah,cdg-146,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan FLEECE, Warna MARUN, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cse-183.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Panjang Anak Perempuan - CSE 183,Rp 118.900,Rp 96.900,Rp 106.900,CSE 183,Baru
+Jual Jaket Lengan Panjang Anak Laki-Laki - CDI 135 Murah,cdi-135,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2442,7 +2442,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 146 Murah,cdg-146,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2465,7 +2465,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 146 Murah,cdg-146,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 146 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan GN.<br/>Kode : CDG 146<br/>Warna : OLIP KOMBINASI<br/>Bahan : GN<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Jaket Lengan Panjang Anak Laki-Laki - CDI 135 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDI 135<br/>Warna : CREAM<br/>Bahan : JIEM<br/>Ukuran : 6 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2478,8 +2478,8 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 146 Murah,cdg-146,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan GN, Ukuran 4 ~ 8, Warna OLIP KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdg-146.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CDG 146,Rp 99.900,Rp 114.900,Rp 15.000,CDG 146,Baru
-Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 159 Murah,cse-159,"
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan JIEM, Warna CREAM, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdi-135.jpg,-/-,-/-,-/-,-/-,-/-,Jaket Lengan Panjang Anak Laki-Laki - CDI 135,Rp 185.900,Rp 151.900,Rp 167.900,CDI 135,Baru
+Jual Sweaters Lengan Panjang Bayi Laki-Laki - CZM 023 Murah,czm-023,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -2504,7 +2504,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 159 Murah,cse-159,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -2527,7 +2527,7 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 159 Murah,cse-159,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 159 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Jaket Sweater Anak Laki-Laki ini terbuat dari bahan GN.<br/>Kode : CSE 159<br/>Warna : CREAM<br/>Bahan : GN<br/>Ukuran : 6 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Sweaters Lengan Panjang Bayi Laki-Laki - CZM 023 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CZM 023<br/>Warna : MERAH<br/>Bahan : RAJUT<br/>Ukuran : AS<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -2540,4 +2540,4 @@ Jual Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 159 Murah,cse-159,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan GN, Ukuran 6 ~ 12, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cse-159.jpg,-/-,-/-,-/-,-/-,-/-,Jaket / Sweater / Hoodies Casual Anak Laki-Laki - CSE 159,Rp 116.900,Rp 134.900,Rp 18.000,CSE 159,Baru
+     </div><!--/category-tab-->",2019-01-18,html,jaket-sweater-anak-laki-laki,catenzo-junior,jaket-sweater-anak-laki-laki,catenzo-junior,"Jaket Sweater Anak Laki-Laki Bahan RAJUT, Warna MERAH, Size AS",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/czm-023.jpg,-/-,-/-,-/-,-/-,-/-,Sweaters Lengan Panjang Bayi Laki-Laki - CZM 023,Rp 84.900,Rp 68.900,Rp 75.900,CZM 023,Baru
